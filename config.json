@@ -1,4 +1,7 @@
 {
     "name": "Local Lua Debugger",
-    "words": [ "lldebugger" ]
+    "words": [
+        "require%s*%(%s*(['\"])lldebugger%1%s*%)",
+        "require%s*(['\"])lldebugger%1"
+    ]
 }
